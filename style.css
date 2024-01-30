@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+
+:root{
+	--pink-color: #f2726a
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #00853e, #50c878);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile_card {
+  height: 400px;
+  background-color: #242628;
+  text-align: center;
+  
+  border-radius: 20px;
+  overflow: hidden;
+  margin:auto;
+}
+
+.card_image img {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid var(--pink-color);
+  transform: translateY(25px);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card_image:hover, img:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: unset;
+  border: unset;
+  transform: unset;
+}
+
+
+h2{
+  color: white;
+  margin: 30px  auto;
+  display: inline-block;
+  font-size: 25px;
+  transition: 0.25s;
+}
+
+h3 {
+  color: white;
+  margin: auto;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.25s;
+}
+
+.icon a{
+	text-decoration: none;
+  color: white;
+  margin: 25px 20px 40px;
+  display: inline-block;
+  font-size: 25px;
+  transition: 0.25s;
+}
+.bx{
+	font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+.bx bxl-facebook-circle:before{
+	content: "\f39e";
+}
+.bx:hover{
+	color: var(--pink-color);
+}
