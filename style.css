@@ -36,6 +36,7 @@ body {
   margin: 0 30px;
 }
 
+
 .card_image img {
   width: 150px;
   height: 150px;
@@ -66,8 +67,11 @@ h2, h3{
   color: white;
   margin:  10px auto;
   display: inline-block;
-  font-size: 25px;
   transition: 0.25s;
+}
+h2:hover , h3:hover{
+  color: var(--pink-color);
+  scale: 1.5;
 }
 
 
@@ -88,4 +92,5 @@ h2, h3{
 }
 .bx:hover{
 	color: var(--pink-color);
+  scale: 1.5;
 }
